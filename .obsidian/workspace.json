@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "3b9fab03d934d86b",
+    "type": "split",
+    "children": [
+      {
+        "id": "068d11f6676a6525",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "503f6f06e450591a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "p6_bachelor/papers/paper-survey_of_role_mining.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "paper-survey_of_role_mining"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f30d850b9d5ceb2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c8fe05941c66fd2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee616afe8f2109e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b9e350434a4f7ee4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6080f0fe2330e0da",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "44bb8d725eccb704",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed0d9615f20d58cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69afc18fb359d2b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "e33c4c6dd0d83273",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "e75dc60b0a476bcd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b62a7ca75515f641",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "503f6f06e450591a",
+  "lastOpenFiles": [
+    "README.md",
+    "p6_bachelor/papers/on_the_definition_of_role_mining.md~",
+    "p6_bachelor/papers/paper-survey_of_role_mining.md~",
+    "p6_bachelor/papers/role_mining_with_ORCA.md",
+    "p6_bachelor/papers/role_mining_problem-formal-perspective.md",
+    "p6_bachelor/papers/role_mining_problem-minimal-descriptive-set-of-roles.md",
+    "p6_bachelor/papers/on_the_definition_of_role_mining.md",
+    "p6_bachelor/papers/Evaluating_role_mining_algorithms.md",
+    "privacy_and_ethics/modules/1-Where_are_the_ethics.md",
+    "privacy_and_ethics/modules/3-Principles_of_data_protection.md",
+    "privacy_and_ethics/modules/4-Deep_fakes_introductory_talk.md",
+    "privacy_and_ethics/modules/5-Computer_Ethics.md",
+    "privacy_and_ethics/modules/7-Privacy_Enhancing_Technologies_p1.md",
+    "privacy_and_ethics/modules/6-Algorithmic_Discrimination_and_Fairness.md",
+    "privacy_and_ethics/modules/2-Behavior_and_cognitive_models.md",
+    "p6_bachelor/papers/paper-survey_of_role_mining.md",
+    "privacy_and_ethics/modules/5-Computer_Ethics.md~",
+    "privacy_and_ethics/modules/9-Federated_Learning.md~",
+    "privacy_and_ethics/modules/8-Privacy_Enhancing_Technologies_p2.md~",
+    "privacy_and_ethics/modules/6-Algorithmic_Discrimination_and_Fairness.md~",
+    "privacy_and_ethics/modules/10-Deep_Fake_Debate.md",
+    "privacy_and_ethics/modules/9-Federated_Learning.md",
+    "privacy_and_ethics/modules/8-Privacy_Enhancing_Technologies_p2.md",
+    "privacy_and_ethics/modules/3-Principles_of_data_protection.md~",
+    "privacy_and_ethics/modules",
+    "p6_bachelor/topics/Role-Based_Access_Control_(RBAC).md",
+    "p6_bachelor/papers/probabilistic_approach_to_hybrid_role_mining.md",
+    "p6_bachelor/papers/this_title_is_too_long.md",
+    "p6_bachelor/papers/this_title_is_too_long.md~",
+    "p6_bachelor/papers/role_mining_with_ORCA.md~",
+    "p6_bachelor/search-terms/search-role_mining.md",
+    "Untitled.md",
+    "p6_bachelor/paper-survey_of_role_mining.md",
+    "p6_bachelor/Role-Based_Access_Control_(RBAC).md",
+    "Welcome.md"
+  ]
+}
