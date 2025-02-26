@@ -1,1 +1,0 @@
-Process/machine always having a replica

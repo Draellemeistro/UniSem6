@@ -1,1 +1,0 @@
-besides being able to physically capture the device, can attempt to modify its state and/or hardware components (e.g., introduce additional memory).

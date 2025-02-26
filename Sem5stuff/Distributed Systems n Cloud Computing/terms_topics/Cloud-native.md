@@ -1,1 +1,0 @@
-Cloud-native applications possess cloud-like features such as [[Auto-scaling]], self-healing, automated updates, rollbacks, and more.

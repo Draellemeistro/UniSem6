@@ -1,1 +1,0 @@
-Process that can dynamically host a replica on request of a client.

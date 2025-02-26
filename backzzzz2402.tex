@@ -3,47 +3,34 @@
 This chapter provides an introductory overview of IAM, as well as the concepts and principles that are relevant to the topic of this paper. Key concepts in access control, and relevant security principles are introduced in order to provide a foundation for later chapters to expand upon.
 
 
+\subsection{IAM: Identity Access Management}
+The main goal of Identity Access Management, or IAM, is to provide a framework for managing roles and access to different services for groups of users\citep{Gartner-DefIAM}. It builds on the idea that users should only have access to the tools and assets that they need, while restricting access to superfluous services, so as to combat abuse of privileges.
+
+Originally Identity and Access management was primarily focused on physical security, such as restricting access to facilities with the use of ID badges. With tendencies moving towards many services, assets etc. being remotely accessible by employees, the traditional ways of structuring and managing access-privileges slowly evolved and moved into the realm of cybersecurity\citep{StrongDM-IAM}.
+
 Hybrid work has become an increasingly common method of work, recently illustrated by the work-from-home movement, which grew to prominence in the fallout of the CoVID epidemic. As such, systems and tools for controlling privileges grew in complexity. Identity Access Management is one of those concepts.
 
-\subsubsection{The Fundamentals}
-\paragraph{Identity}
-In the context of cybersecurity, an identity is a set of attributes that uniquely describe an entity, such as a user or a device. These attributes can be used to identify and authenticate the subject, and to implement Access Control mechanisms regarding what resources the subject is authorized to access\citep{Gartner-DefIAM}. This directly feeds into the concept of Access Control, the other main pillar of IAM.
+IAM frameworks consists of a set of tools to administer identities and access privileges, as well as rules and policies on how users should interact with the systems. The responsibility of IAM therefore consists of creating, updating and deleting of user credentials, in addition to deciding which users has access to which assets or processes\citep{IAM-ComprehensiveStudy}. As evident by its given name, it is composed of two components: Identity Management and Access Management.
 
-\subsection{IAM: Identity Access Management}
-The main goal of Identity Access Management, or IAM, is to provide a framework for managing roles and access to different services for groups of users\citep{Gartner-DefIAM}. It ensures that users only have access to the tools and assets that are necessary for their function, while restricting access to superfluous services, to prevent abuse of privileges.
-
-Originally Identity and Access management was primarily focused on physical security, such ID badge systems for facility access. With the rapid evolution of networking technologies, IAM also had to evolve alongside to handle the changing landscape. Access tendencies shifted more towards remote access by employees for many services, assets, and systems, and as a result, the traditional ways of structuring and managing access privileges have evolved and moved into the realm of cybersecurity\citep{StrongDM-IAM}.
-
-\subsection{IAM Components}
-IAM frameworks consists of a set of tools to administer identities and access privileges, as well as rules and policies on how users should interact with the systems. The responsibility of IAM therefore consists of creating, updating and deleting of user credentials, in addition to managing which users has access to which assets or processes\citep{IAM-ComprehensiveStudy}. This is done through two main components:
-\begin{itemize}
-	\item \textbf{Identity Management}: Creating, updating, and deleting user credentials.
-	\item \textbf{Access Management}: Defining policies and enforcing user access rights.
-\end{itemize}
-
-\subsubsection{Identity Governance and Administration (IGA)}
+\subsubsection{IGA: Identity Governance and Administration}
 IGA aims to strengthen administrators' abilities to manage user identities and access privileges. It provides the tools to help ensure that IAM policies are upheld\citep{StrongDM-IGAvsPAM,CoreSec-DiffIAMIGAPAM}. This is done primarily by providing the ability to automate the different areas of user-, role- and access- management. Its focus is therefore on the more general governance of user access, and ensuring the organization maintains compliance.
 
-\subsubsection{Privileged Access Management (PAM)}
+\subsubsection{PAM: Privileged Access Management}
 Privileged Access Management, as the name suggests, has a narrower focus than IGA. Here, the goal is to defend the more sensitive parts of the operation\citep{StrongDM-IGAvsPAM,CoreSec-DiffIAMIGAPAM}. This is done by providing extra layers of security around more privileged accounts in order to keep critical systems from being altered by bad actors with elevated permissions.
 %\paragraph{PASM: Privileged Account and Session Management} %\paragraph{PEDM: Privilege Elevation and Delegation Management}
-
-\subsubsection{IAM Mechanism, Concepts and Principles}
+\subsubsection{IAM Mechanism, Standards and Frameworks?}
 \paragraph{SSO: Single Sign On}
-SSO allows users to access multiple applications or services using only one authentication pricess. This can improve both security and usability, as it reduces the number of passwords a user has to remember.
-
+\subsection{Concepts relevant to IAM}
+\subsubsection{Security Principles}
 \paragraph{Zero Trust Security}
-Zero Trust Security defines the principles that users and devices should not be trusted by default, they should prove their trustworthiness before being granted any privileges. Trust is not persistent, so this goes even if they were already previously granted access, or are connected to a privileged network.
-
 \paragraph{PoLP: Principle of Least Privilege}
 The Principle of Least Privilege, or PoLP, becomes especially important for keeping the potential for data breaches at a minimum. The principle describes the notion that users and processes should only have the exact set of privileges necessary to fulfill their functions, no more than that\citep{OGDef-PoLP}. Following PoLP will limit the potential adverse effects caused by accidents, errors or misuse. The authors compared it to the military principle of keeping things on a \textit{"need-to-know basis"}\citep{OGDef-PoLP}.
-
 \paragraph{SoD: Separation of Duties}
-
 \paragraph{Just-In-Time (JIT) Access}
-JIT Access is the practice of granting access privileges only when they are needed, and only for the duration that they are needed.A user is temporarily elevated for a specific task, after which the privileges are revoked again.
 
 \subsubsection{Identity and Access}
+\paragraph{Identity}
+In the context of cybersecurity, an identity is a set of attributes that uniquely describe an entity, such as a user or a device. These attributes can be used to identify and authenticate the subject, and to implement Access Control mechanisms regarding what resources the subject is authorized to access\citep{Gartner-DefIAM}. This directly feeds into the concept of Access Control, the other main pillar of IAM.
 \paragraph{Access Control}
 Besides it's application in IAM, access control is in general also a fundamental concept in cybersecurity. Access control is the practice of restricting, or controlling, access to resources, such as systems, applications, data, and physical locations, to authorized users. The goal of access control is to ensure that only the right people have access to the right resources, at the right time, and for the right reasons\citep{Gartner-DefIAM}.
 
@@ -55,8 +42,7 @@ Access Control Models are the frameworks that dictate how access control is impl
 	\item Discretionary Access Control (\textbf{DAC})
 	\item Role-Based Access Control (\textbf{RBAC})
 \end{itemize}
-Though, a fourth model, Attribute-Based Access Control (ABAC), is also often discussed in more recent literature.
-% https://ieeexplore-ieee-org.zorac.aub.aau.dk/document/6519249
+
 Each model has its own strengths and weaknesses. As such, organizations can choose to implement one model, for simplicity, or use several models in conjunction, choosing whichever model best fits specific systems or assets.
 
 \paragraph{MAC: Mandatory Access Control}

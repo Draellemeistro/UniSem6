@@ -1,6 +1,0 @@
-- Devices continuously observe the environment
-- reporting is performed in (quasi)regular periods
-- Periodicity depends on application
-	- tens of milliseconds ([[Industrial automation]]) to hours (electricity consumption)
-- Lower reliability requirements
-	- 0.95 - 0.99

@@ -1,1 +1,0 @@
-The process of distributing workload evenly across computing resources in a cloud computing environment.

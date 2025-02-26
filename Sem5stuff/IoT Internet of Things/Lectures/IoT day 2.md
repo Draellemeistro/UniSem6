@@ -1,4 +1,0 @@
-- [[IoT network]]
-- [[IoT traffic]]
-- [[Multiple access techniques]]
-- [[IoT access networks]]

@@ -1,1 +1,0 @@
-Similar to [[IoT-Edge-Cloud]]?????

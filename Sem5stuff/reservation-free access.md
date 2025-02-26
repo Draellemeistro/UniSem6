@@ -1,1 +1,0 @@
-Reservation (grant)-free access

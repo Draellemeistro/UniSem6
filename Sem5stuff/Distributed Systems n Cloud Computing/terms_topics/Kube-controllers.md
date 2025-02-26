@@ -1,1 +1,0 @@
-Monitor cluster state and reconcile desired vs. actual state. Examples: Deployment Controller, StatefulSet Controller, ReplicaSet Controller. Managed by the [[Kube-Controller-manager|Controller Manager]].

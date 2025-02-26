@@ -1,3 +1,0 @@
-- Essentially a group of high-end systems connected through LAN
-	- **Homogenous:** same OS, near identical hardware
-	- Single or tightly coupled managing node(s)

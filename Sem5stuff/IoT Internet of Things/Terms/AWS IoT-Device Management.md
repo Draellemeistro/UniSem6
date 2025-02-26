@@ -1,1 +1,0 @@
-Easily register, organize, monitor, and remotely manage your [[IoT device]]s at scale

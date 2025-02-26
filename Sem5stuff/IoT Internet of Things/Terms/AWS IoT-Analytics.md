@@ -1,1 +1,0 @@
-Run analytics on volumes of IoT data easily - without building an analytics platform.

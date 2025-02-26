@@ -1,2 +1,0 @@
-- [[LTE-M]], [[NB-IoT]]
-- originally in [[4G]], but are (will be) continuously improved through [[5G]] releases

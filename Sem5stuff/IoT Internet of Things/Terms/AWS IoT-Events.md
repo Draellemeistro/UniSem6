@@ -1,1 +1,0 @@
-Easily detect and respond to events from many IoT sensors and applications

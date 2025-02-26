@@ -1,1 +1,0 @@
-reservation (grant)-based access

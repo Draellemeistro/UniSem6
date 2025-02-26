@@ -1,1 +1,0 @@
-## Explain two reasons why [[5G]] is exposed to cyber attacks

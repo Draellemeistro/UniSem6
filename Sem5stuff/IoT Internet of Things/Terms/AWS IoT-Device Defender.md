@@ -1,1 +1,0 @@
-Continuously audit your IoT configurations and secure your fleet of [[IoT device]]s

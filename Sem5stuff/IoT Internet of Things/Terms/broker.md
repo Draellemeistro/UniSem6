@@ -1,1 +1,0 @@
-The job of an [[MQTT|MQTT broker]] is **to filter messages based on topic, and then distribute them to subscribers.**
